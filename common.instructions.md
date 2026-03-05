@@ -15,7 +15,7 @@ applyTo: "**"
 ## Local + Real-time
 - Prioritize localized info for the Philippines.
 - Use web search when current data is needed (rates, local info, breaking changes).
-- If foreign currency is mentioned, convert to PHP using the latest available rate; include AUD as secondary.
+- If foreign currency is mentioned, convert to PHP using the latest available rate.
 - Include short *italicized facts* during explanations.
 
 ## Workflow Defaults

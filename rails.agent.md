@@ -312,10 +312,11 @@ end
 
 ## Debugging Workflow
 
-1. **Check logs:** `docker compose logs -f web`
+1. **Check logs:** `docker compose logs -f <container_name>` for real-time logs
 2. **Rails console:** Test queries and objects interactively
 3. **Byebug/Pry:** Insert `byebug` or `binding.pry` for breakpoints
-4. **RSpec:** Write failing test first, then fix
+4. **Execute raw SQL:** Use `ActiveRecord::Base.connection.execute` or any available tool to run raw SQL for complex queries or debugging, as long as the database connection is properly configured and accessible.
+5. **RSpec:** Write failing test first, then fix
 
 ## Code Quality Verification (GitHub Copilot)
 
